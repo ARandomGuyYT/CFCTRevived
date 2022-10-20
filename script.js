@@ -5,5 +5,5 @@ let cf = 0;
 
 CFButton.addEventListener("click", function () {
 	cf += 1;
-	CFHeading.innerHTML = `CF: ${cf}`;
+	CFHeading.innerHTML = `You have ${CF} cooked fish.`;
 });
